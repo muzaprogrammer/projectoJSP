@@ -17,9 +17,9 @@ public class DataBase {
 
     public DataBase() {
         this.driver = "com.mysql.jdbc.Driver";
-        this.url = "jdbc:mysql://localhost:3306/projecto";
+        this.url = "jdbc:mysql://localhost:8889/projecto";
         this.usuario = "root";
-        this.contraseña = "muza01102013";
+        this.contraseña = "root";
     }
 
     public String getDriver() {
